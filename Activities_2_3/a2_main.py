@@ -8,3 +8,8 @@ print(df.head())
 
 # Show the column names
 print(df.columns)
+
+print(df['Sport'].value_counts().head())
+print(df['Sex'].value_counts())
+
+print(df.describe())
