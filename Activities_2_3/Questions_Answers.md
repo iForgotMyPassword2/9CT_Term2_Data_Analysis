@@ -30,4 +30,14 @@ Therefore there were more men then women.
 - The age of 10 years old and the weight of just 25 kilos is strange.
 
 # Activities Filtering, sorting and grouping
-1. 
+1. What do these filters do?
+- The filters show two different conditions. One is that the computer filters out all files that are not females, leaving the output as just female athletes/.
+The second filter is designed to only display female athletes over the age of 35.
+2. As shown using the len() function, there are 74522 female athletes, with 16384 athletes over the age of 35.
+
+
+# Task 3: Sorting data
+1. The sport with the most number of women is Athletics, followed by Gymnastics and swimming. This is likely due to the popularity in general of the sports
+
+
+# More sorting Activities
