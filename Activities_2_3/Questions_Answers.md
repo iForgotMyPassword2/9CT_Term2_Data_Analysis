@@ -41,3 +41,13 @@ The second filter is designed to only display female athletes over the age of 35
 
 
 # More sorting Activities
+Reflection Journal:
+1. The easiest filtering task for me was the one that involved Australian swimmers, as I could follow closely what other activities told me to do without requiring any additional
+programming knowledge, and just depending on my understanding of other code given to me.
+
+2. The most difficult sorting task was likely the sport by female athletes task, which required some additional research on the pandas programming syntax. This was because I was unsure how to combine the conditions sport and sex. I utilised copilot to help me with this.
+
+3. It was surprising to me that the average weight when playing Tug Of War was 95 kilograms, although this does make sense since a lot of weight is required to be able to realistically tug harder than others.
+
+4. Some real world questions that could be answered through this include Flight data, Weight comparisons and general rankings with things.
+This is really useful for the world showing how important data science is, and how simple code is capable of creating ranking systems, filtering systems and sorting systems.

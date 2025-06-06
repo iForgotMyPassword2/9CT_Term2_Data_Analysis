@@ -1,5 +1,14 @@
 import pandas as pd
 
+
+
+csv = pd.read_csv("athlete_events.csv")
+
+
+
+
+
+
 # Load the dataset
 df = pd.read_csv("athlete_events.csv")
 
@@ -55,3 +64,23 @@ print(sport_counts.head())
 # Count medals per team
 medals_by_team = df[df['Medal'].notnull()].groupby('Team')['Medal'].count()
 print(medals_by_team.sort_values(ascending=False).head())
+
+# Average height per sport
+avg_height = df.groupby('Sport')['Height'].mean().sort_values(ascending=False)
+print(avg_height.head())
+
+# Median age by year
+median_age_by_year = df.groupby('Year')['Age'].median()
+print(median_age_by_year.tail())
+
+# Individual Activity:
+avg_weight_sex = df.groupby('Sex')['Weight'].mean().sort_values(ascending=False)
+# print(avg_weight_sex.head())
+
+avg_weight_sport = df.groupby('Sport')['Weight'].mean().sort_values(ascending=False)
+# print(avg_weight_sport.head())
+
+# print together:
+print(avg_weight_sport.head())
+print(avg_weight_sport.tail())
+
