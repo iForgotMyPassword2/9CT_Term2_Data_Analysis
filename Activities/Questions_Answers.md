@@ -51,3 +51,6 @@ programming knowledge, and just depending on my understanding of other code give
 
 4. Some real world questions that could be answered through this include Flight data, Weight comparisons and general rankings with things.
 This is really useful for the world showing how important data science is, and how simple code is capable of creating ranking systems, filtering systems and sorting systems.
+
+# Dataframe Activities:
+1. These operations are key to organising and working with data and information as they allow you to format the text given. This is because putting in a csv file automatically altes the format to become far easier to work with. After that, creating a function that can read the csv file allows the printed text to come out formatted and organised. Additionally, the use of a csv file allows us to manipulate the information using filters and groups to organise and work with data that could otherwise be too hard to understand.
