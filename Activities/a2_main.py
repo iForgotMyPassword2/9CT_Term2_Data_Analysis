@@ -84,3 +84,6 @@ avg_weight_sport = df.groupby('Sport')['Weight'].mean().sort_values(ascending=Fa
 print(avg_weight_sport.head())
 print(avg_weight_sport.tail())
 
+# Drop rows missing both height and weight
+df_cleaned = df.dropna(subset=['Height', 'Weight'])
+print(df_cleaned.shape)

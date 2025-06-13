@@ -54,3 +54,15 @@ This is really useful for the world showing how important data science is, and h
 
 # Dataframe Activities:
 1. These operations are key to organising and working with data and information as they allow you to format the text given. This is because putting in a csv file automatically altes the format to become far easier to work with. After that, creating a function that can read the csv file allows the printed text to come out formatted and organised. Additionally, the use of a csv file allows us to manipulate the information using filters and groups to organise and work with data that could otherwise be too hard to understand.
+
+# Week 4 Activities:
+
+1. Which three columns had the most missing (empty) values?
+- The three columns with the most empty values were Name, Age and City.
+2. Why might this happen in real world olympic data?
+- This is likely due to old data records being either destroyed or unclear. This is because it can be really hard to maintain information that can date back more than a hundred years. Additionally, in some cases the results were unclear due to unforseen circumstances. It is also possible that the athletes did not consent to their personal information and statistics being available to the public.
+
+# Challenge: how many rows did you remove?
+- 15 rows were removed for the weight
+- The advantages of using removal of empty rows is simplicity for reading, and in additional file compression, which will allow much more information to come out of the same storage. However there are a few disadvantages, as it can also get rid of information that would have otherwise be useful. For example, some information may need to stay empty to prove a point or show something. This will render this function useless.
+
