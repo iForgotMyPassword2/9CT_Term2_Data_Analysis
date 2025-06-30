@@ -31,7 +31,7 @@ Therefore there were more men then women.
 
 # Activities Filtering, sorting and grouping
 1. What do these filters do?
-- The filters show two different conditions. One is that the computer filters out all files that are not females, leaving the output as just female athletes/.
+- The filters show two different conditions. One is that the computer filters out all files that are not females, leaving the output as just female athletes.
 The second filter is designed to only display female athletes over the age of 35.
 2. As shown using the len() function, there are 74522 female athletes, with 16384 athletes over the age of 35.
 
@@ -65,4 +65,3 @@ This is really useful for the world showing how important data science is, and h
 # Challenge: how many rows did you remove?
 - 15 rows were removed for the weight
 - The advantages of using removal of empty rows is simplicity for reading, and in additional file compression, which will allow much more information to come out of the same storage. However there are a few disadvantages, as it can also get rid of information that would have otherwise be useful. For example, some information may need to stay empty to prove a point or show something. This will render this function useless.
-
