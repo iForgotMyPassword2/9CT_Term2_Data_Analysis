@@ -65,3 +65,4 @@ This is really useful for the world showing how important data science is, and h
 # Challenge: how many rows did you remove?
 - 15 rows were removed for the weight
 - The advantages of using removal of empty rows is simplicity for reading, and in additional file compression, which will allow much more information to come out of the same storage. However there are a few disadvantages, as it can also get rid of information that would have otherwise be useful. For example, some information may need to stay empty to prove a point or show something. This will render this function useless.
+
